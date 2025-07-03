@@ -1,0 +1,159 @@
+{
+    "bot": {
+        "token": "",
+        "prefix": ["!"],
+        "footer": "IvyMC",
+        "status": "IvyMC Discord"
+    },
+    "ytv": {
+        "basvuruKategoriId": "",
+        "everyoneRolId": "",
+        "adminRolId": "",
+        "yetkiliLogKanalId": "",
+        "yetkiliRolleri": ["", ""]
+    },
+    "penals": {
+        "ban": {
+            "staffRolId": "",
+            "logKanalId": "",
+            "limit": 5,
+            "points": {
+                "banPoints": 10
+            }
+        }
+    },
+    "registration": {
+        "staffRolId": "STAFF_ROL_ID"
+    },
+    "ticket": {
+        "categoryId": "",
+        "logChannelId": ""
+    },
+    "emojis": {
+        "yes": "✅",
+        "no": "❌",
+        "ticket": "🎫",
+        "close": "🔒"
+    },
+    "messages": {
+        "basvuru": {
+            "basvurularDurduruldu": "Başvurular geçici olarak durdurulmuştur.",
+            "banli": "Başvurulardan banlısın",
+            "hosgeldin": "Merhaba {user}, demek Minecraft sunucumuzda yetkili olmak istiyorsun! Önce bazı soruları cevaplaman gerekiyor, başarılar!\n:hourglass: Unutma! Tüm soruları cevaplaman için 2 dakikan var, hızlı ol :)",
+            "soru1": "**Minecraft komutlarını biliyor musunuz?** (Örn: /gamemode, /ban, /tp) evet/hayır",
+            "soru2": "**Minecraft sunucusu yönettiniz mi veya yetkili oldunuz mu?** evet/hayır",
+            "soru3": "**Günde kaç saat Minecraft sunucusunda aktif olabilirsiniz?** 1/24 saat",
+            "soru4": "**Oyun içi moderasyon deneyiminiz var mı?** (Örn: hile tespiti, oyuncu şikayetleri) evet/hayır",
+            "soru5": "**Minecraft ve Discord platformlarında kaç yıldır bulunuyorsunuz?** yıl",
+            "soru6": "**Sunucuya hangi konuda katkı sağlamak istiyorsunuz?** (Örn: etkinlik düzenleme, hile önleme, topluluk yönetimi)",
+            "soru7": "**Neden bizim Minecraft sunucumuzda yetkili olmak istiyorsunuz?** cevabınız",
+            "sureBitti": "**Süre Bitti!**\nBu kanal 5 saniye sonra silinecektir",
+            "basvuruIletildi": "**Başvurunuz Başarıyla iletilmiştir!**\nBu kanal 5 saniye sonra silinecektir",
+            "yeniBasvuru": "Yeni Başvuru Geldi!",
+            "basvuruButonAciklama": "Aşağıdaki butonlardan onay/red işlemlerini gerçekleştirebilirsiniz",
+            "basvuruOnay": "{userTag} kullanıcısının başvurusu onaylandı ve roller eklendi!",
+            "basvuruOnayHata": "{userTag} kullanıcısının başvurusu onaylandı, ancak atanacak rol bulunamadı!",
+            "basvuruRed": "{userTag} kullanıcısının başvurusu reddedildi!",
+            "basvuruHata": "Başvuru sahibi bulunamadı.",
+            "rolEklemeHata": "Rol ekleme sırasında bir hata oluştu: {error}"
+        },
+        "reklamkoruma": {
+            "aciklama": "**Reklam Koruma Nedir?**\n*Sunucuda sohbet kanalında üyelerin reklam yapıp yapmadığını kontrol etmeye yarayan bir sistemdir*\n*Bu sistemi kullanabilmek için* `{prefix}reklam aç/kapat` *şeklinde çalıştırmalısınız*",
+            "zatenAcik": "**Reklam Koruma,**\n**Bu özellik zaten açık, kapatmak istiyorsanız** `{prefix}reklam kapat` **yazabilirsiniz**",
+            "aktifEdildi": "**Reklam Koruma,**\n**Sistem başarıyla aktif edildi, artık `{guildName}` sunucusunda reklam yapılmaz**",
+            "zatenKapali": "**Reklam Koruma,**\n**Bu özellik zaten kapalı, açmak istiyorsanız** `{prefix}reklam aç` **yazabilirsiniz**",
+            "deaktifEdildi": "**Reklam Koruma,**\n**Sistem başarıyla deaktif edildi, artık `{guildName}` sunucusunda reklam yapılır**",
+            "yetkiYok": "Bu komut sadece TAÇ sahibi tarafından kullanılabilir"
+        },
+        "kufurkoruma": {
+            "aciklama": "**Küfür Koruma Nedir?**\n*Sunucuda sohbet kanalında üyelerin küfür edip etmediğini kontrol etmeye yarayan bir sistemdir*\n*Bu sistemi kullanabilmek için* `{prefix}küfür aç/kapat` *şeklinde çalıştırmalısınız*",
+            "zatenAcik": "**Küfür Engel Sistemi,**\n**Bu özellik zaten açık, kapatmak istiyorsanız** `{prefix}küfür kapat` **yazabilirsiniz**",
+            "aktifEdildi": "**Küfür Engel Sistemi,**\n**Sistem başarıyla aktif edildi, artık `{guildName}` sunucusunda küfür edilemez**",
+            "zatenKapali": "**Küfür Engel Sistemi,**\n**Bu özellik zaten kapalı, açmak istiyorsanız** `{prefix}küfür aç` **yazabilirsiniz**",
+            "deaktifEdildi": "**Küfür Engel Sistemi,**\n**Sistem başarıyla deaktif edildi, artık `{guildName}` sunucusunda küfür edilebilir**",
+            "yetkiYok": "Bu komut sadece TAÇ sahibi tarafından kullanılabilir"
+        },
+        "duyuru": {
+            "yetkiYok": "**YETERSİZ YETKİ!**",
+            "kanalBelirt": "**Bir Kanal Etiketlemen Gerek!**",
+            "mesajBelirt": "**Ne Duyurusu Yapılacak Yazman Gerek!**"
+        },
+        "avatar": {
+            "baslik": "{userTag} Avatar:"
+        },
+        "eval": {
+            "kodBelirt": "Kod belirtmelisin!",
+            "tokenHata": "Çok Zekisin Herhalde :D"
+        },
+        "reboot": {
+            "yetkiYok": "Bu komutu sadece Bot Sahibi kullanabilir!",
+            "yenidenBasliyor": "Bot yeniden başlıyor... Bu İşlem Birkaç Dakika Sürebilir Lütfen Bekleyiniz"
+        },
+        "ticket": {
+            "yetkiYok": "Bu komutu kullanmak için **Yönetici** yetkisine sahip olmalısınız!",
+            "ekleYetkiYok": "Bu komutu kullanmak için **Kanalları Yönet** yetkisine sahip olmalısınız!",
+            "ekleHata": "Eklemek için bir kullanıcı belirtmelisiniz! Örnek: `{prefix}ticket ekle @kullanıcı`",
+            "cikarHata": "Çıkarmak için bir kullanıcı belirtmelisiniz! Örnek: `{prefix}ticket çıkar @kullanıcı`",
+            "gecersizKanal": "Bu kanal bir ticket kanalı değil!",
+            "sahipCikarHata": "Ticket sahibini kanaldan çıkaramazsınız!",
+            "altKomutHata": "Geçerli bir alt komut belirtin: `ekle` veya `çıkar`",
+            "panelBaslik": "Destek Talebi Oluştur",
+            "panelAciklama": "Öneri, şikayet veya yardım talebi için aşağıdaki butona tıklayın!",
+            "butonEtiket": "Ticket Oluştur",
+            "zatenAcik": "Zaten açık bir ticket'ınız var!",
+            "ticketOlusturuldu": "Ticket oluşturuldu: {channel}",
+            "ticketHosgeldin": "Merhaba {user}, destek talebiniz için bu kanalı kullanabilirsiniz!\nTicket’ı kapatmak için aşağıdaki butona tıklayın.",
+            "ticketKapatButon": "Ticket'ı Kapat",
+            "ticketKapatiliyor": "Ticket 5 saniye içinde kapatılacak.",
+            "ticketKapandi": "Destek talebiniz kapatıldı.\n**Sunucu**: {guildName}\n**Kapatılma Tarihi**: <t:{timestamp}:R>",
+            "ticketLog": "**Ticket Sahibi**: <@{ownerId}> (`{ownerId}`)\n**Kapatılma Tarihi**: <t:{timestamp}:R>\n**Kapatılma Kanalı**: {channelName} (`{channelId}`)\n**Kapatan**: <@{userId}>",
+            "kapatYetkiYok": "Bu ticket’ı kapatmak için yetkiniz yok!"
+        },
+        "destek": {
+            "mesajBelirt": "**Neden Destek İstediğinizi Yazmanız Gerekir!\nÖrnek: `{prefix}canlıdestek Botun Bir Komutu Çalışmıyor.`**",
+            "talepGonderildi": "✅ **Canlı Destek Talebiniz Gönderildi!\nEn Kısa Sürede Sizinle İletişime Geçeceklerdir!**",
+            "talepBilgi": "🛠 Destek Talebi Bilgiler 🛠",
+            "talepAciklama": "**🚉 Sunucu**\n● | {guildName}\n● | ({guildId})\n\n**📮 Kanal**\n● | {channelName}\n● | ({channelId})\n\n**📝 Destek İsteyen**\n● | {userTag}\n● | ({userId})\n\n**📩 Gelen Mesajı**\n● | {message}",
+            "talepGeldi": "⚠️ **Destek Talebi Geldi** ⚠️\n\n**✅ Kabul Etmek İstiyorsan `katıl`\n❌ Red Etmek İstiyorsan `kapat` Yazabilirsin!**",
+            "zamanAsimi": "**🔌 Bağlantı ZAMAN Aşımına Uğradı**",
+            "redEdildi": "**🛑 Red Edildi 🛑**",
+            "redEdildiLog": "**📡 Bağlantı Başarıyla Red Edildi ✅**",
+            "baglantiAcildi": "**Destek Talebi Açan Sunucuya Bağlanıldı!\n❌ Kapatmak için `kapat` Yazabilirsiniz!**",
+            "baglantiAcildiKullanici": "**{user}, Destek Talebiniz Yetkili Tarafından Alındı!\nDestek Talebini Kapatmak İstiyorsan `kapat` Yazabilirsin!**",
+            "aramaKapatildi": "**❌ Arama Kapatıldı**",
+            "aramaKarsiKapatildi": "**Arama Karşı Taraftan Kapatıldı! ❌**"
+        },
+        "sil": {
+            "yetkiYok": "Komutu kullanabilmek için geçerli yetkin olmalı.",
+            "rakamBelirt": "Geçerli bir rakam belirtiniz.",
+            "sayiHata": "Geçerli bir sayı belirt!",
+            "sayiAralik": "1 ile 100 arasında bir sayı belirtmelisiniz.",
+            "mesajSilindi": "{count} mesaj silindi!",
+            "hata": "Mesajlar silinirken bir hata oluştu: {error}"
+        },
+        "snipe": {
+            "yetkiYok": "Komutu kullanabilmek için geçerli yetkin olmalı",
+            "mesajYok": "Sunucuda Daha Önce Mesaj Silinmemiş.",
+            "aciklama": "◾️ `Yazan Kişi:` <@{authorId}>\n◾️ `Mesaj:` **{message}**\n◾️ `Kanal:` <#{channelId}>\n◾️ `Yazılma Tarihi:` {timeAgo} **Önce Yazılmış**\n◾️ `Silinme Tarihi:` {deleteTimeAgo} **Önce Silinmiş**"
+        },
+        "kilit": {
+            "yetkiYok": "Komutu kullanabilmek için geçerli yetkin olmalı",
+            "onaySoru": "{user} kanalı kilitlemek istediğine emin misin?",
+            "kilitlendi": "{emojiYes} <@{userId}> tarafından <#{channelId}> kanalı kilitlendi.\nAçmak ister isen aşağıdaki butondan açabilirsin.",
+            "reddedildi": "{emojiNo} <@{userId}> tarafından kanal kilitlenme reddedildi.",
+            "kilitAcildi": "{emojiYes} Kanalın kilidi açıldı.",
+            "yetkiHata": "Komutu sadece {user} yani komutu kullanan kişi kullanabilir.",
+            "hata": "Bir hata oluştu"
+        },
+        "ban": {
+            "yetkiYok": "Komutu kullanabilmek için geçerli yetkin olmalı.",
+            "kullaniciBelirt": "Banlanacak kullanıcıyı belirtmelisin. Örnek .ban @etiket sebep",
+            "sebepBelirt": "Geçerli bir sebep belirtmelisin.",
+            "ayniYetki": "Aynı veya yüksek yetki!",
+            "limitAsildi": "Saatlik ban sınırını geçtin!",
+            "banBilgi": "**{user}** **({userId})** kullanıcısı **\"{reason}\"** sebebiyle sunucudan banlandı!\nBanlayan Yetkili: <@{authorId}> `({authorId})`\nBanlanma tarihi: `{date}`\nCeza Numarası: `#{cezaNo}`",
+            "banLog": "{user} Adlı Üye sunucudan Banlandı;\n\nBanlanan üye: {user}\nBanlayan Yetkili: <@{authorId}>\nBanlanma sebebi: `{reason}`\nBanlanma tarihi: `{date}`\nCeza Numarası: `#{cezaNo}`",
+            "sicilKaydi": "{author} tarafından {date} tarihinde **{reason}** sebebiyle **BAN** cezası almış."
+        }
+    }
+}

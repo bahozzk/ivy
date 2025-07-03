@@ -1,0 +1,20 @@
+{
+  "name": "ivy-genel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "BahozzK",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "discord.js": "^14.21.0",
+    "moment": "^2.30.1",
+    "moment-duration-format": "^2.3.2",
+    "os": "^0.1.2",
+    "quick.db": "^9.1.7"
+  }
+}
